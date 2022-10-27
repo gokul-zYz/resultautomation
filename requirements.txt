@@ -1,5 +1,5 @@
 selenium
 http.client
-python-time 0.3.0
+python-time
 
 
