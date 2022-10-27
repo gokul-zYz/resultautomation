@@ -1,17 +1,17 @@
 from selenium import webdriver 
+
 import http.client
 import time
 import os
+from selenium import webdriver
+import chromedriver_autoinstaller
 
-#driver = webdriver.Chrome("https://replit.com/@GOKUL69/REsult#chromedriver.exe")
-conn = http.client.HTTPSConnection("api.ultramsg.com")
-chrome_options=webdriver.ChromeOptions()
-chrome_options.binary_location=os.environ.get("GOOGLE_CHROME_BIN")
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--no-sandbox")
-driver=webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),options=chrome_options)
 
+
+
+
+chromedriver_autoinstaller.install()
+driver=webdriver.Chrome()
 def whatsapp(result):
   
    message=result
