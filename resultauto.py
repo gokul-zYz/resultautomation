@@ -32,11 +32,12 @@ def results():
  time.sleep(1)
  whatsapp("hi")
   
- '''try:
+ try:
   driver.switch_to.alert.accept()
-  results()
+  whatsapp("RESULT CAME")
+  #results()
  except:
-    whatsapp("RESULT CAME")'''
+    whatsapp("RESULT CAME")
 
     
 results()
