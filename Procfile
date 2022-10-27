@@ -1,1 +1,1 @@
-web:python resultauto.py
+worker:python resultauto.py
