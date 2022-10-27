@@ -30,11 +30,14 @@ def results():
  driver.find_element_by_xpath('//*[@id="exam"]').send_keys("sixth")
  driver.find_element_by_xpath('//*[@id="print_app_form"]/span').click()
  time.sleep(1)
- try:
+ whatsapp("hi")
+  
+ '''try:
   driver.switch_to.alert.accept()
   results()
  except:
-    whatsapp("RESULT CAME")
+    whatsapp("RESULT CAME")'''
+
     
 results()
 driver.quit()
